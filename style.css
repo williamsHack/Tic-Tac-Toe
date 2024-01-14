@@ -1,0 +1,80 @@
+/* Styles are unchanged */
+body {
+  font-family: 'Nerko One', cursive;
+  background-color: #2a1e5c;
+  color: #dbdfac;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  font-size: 4em;
+  margin-top: 20px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #dbdfac;
+  cursor: pointer;
+}
+
+#restart, #mode-buttons {
+  margin-top: 20px;
+}
+
+#scores {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#restart {
+  padding: 10px 20px;
+  background-color: #d7f171;
+  border: none;
+  border-radius: 20px;
+  color: #2a1e5c;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.mode-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #d7f171;
+  border: none;
+  border-radius: 20px;
+  color: #2a1e5c;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.mode-button:hover {
+  background-color: #a7c443;
+}
